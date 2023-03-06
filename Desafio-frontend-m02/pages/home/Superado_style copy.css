@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header ul {
+    display: inline-block;
+    height: 40px;
+    width: 1045px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: right;
+    color: #5FB4A2;
+
+}
+
+.header li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    left: 165px;
+    top: 64px;
+    border: red
+}
+
+.Hero {
+    background-image: url("image-homepage-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 1110px;
+    height: 600px;
+    left: 165px;
+    top: 150px;
+}
+
+.Ola h2 {
+    margin-top: 300px;
+    height: 300px;
+    left: 165px;
+    top: calc(50% - 200px/2 - 22.5px);
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+    color: #33323D;
+    text-align: left;
+
+}
+
+.Ola {
+    width: 445px;
+    height: 10px;
+    left: 165px;
+    top: 393px;
+    background-color: #f5f5f5;
+
+}
+
+/* .Ola button {
+    background-color: #203A4C;
+    height: 48px;
+    width: 200px;
+    left: 24%;
+    right: 0%;
+    margin-top: 0px;
+
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+} */
+/* 
+.Ola svg {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    margin-top: 613px;
+    margin-left: 15px;
+} */
+
+.footer {
+    /* padding: 28px 165px 28px 1171px;*/
+    background-color: #33323D;
+    position: absolute;
+    width: 1200px;
+    height: 80px;
+    left: 165px;
+    top: 1884px;
+}
+
+.menu ul {
+    position: absolute;
+    width: 309px;
+    height: 14px;
+    left: 400px;
+    top: 1917px;
+
+    list-style: none;
+
+
+}
+
+.footer ul li {
+    display: inline-block;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+.sobre p {
+    position: absolute;
+    height: 500px;
+    left: 0%;
+    right: 0%;
+    margin-top: 1150;
+
+    font-family: Public Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    width: 500px;
+    /* or 188% */
+
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+
+.sobre img {
+    position: absolute;
+    width: 540px;
+    height: 600px;
+    margin-left: 165px;
+    margin-top: 899px;
+
+}
+
+.sobre h2 {
+    position: absolute;
+    height: 42px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 42px/2 - 230px);
+    margin: 750px 165px 971px 600px;
+    text-align: center;
+    font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+
+}
+
+.sobre p {
+    margin: 951px 165px 971px 845px;
+    text-align: justify;
+}
+
+.sobre button {
+    position: absolute;
+    height: 48px;
+    margin-top: 1405px;
+    margin-left: 958px;
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 204px;
+
+
+    color: #33323D;
+}
+
+.contato h2 {
+    position: absolute;
+    height: 84px;
+    left: 0%;
+    right: 66.94%;
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* or 105% */
+
+    letter-spacing: -0.357143px;
+    margin-top: 1650px;
+    margin-left: 165px;
+    color: #33323D;
+
+}
+
+.contato button {
+    position: absolute;
+    width: 168px;
+    height: 48px;
+    margin-left: 1400px;
+    right: 29.76%;
+    margin-top: 1668px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+}
